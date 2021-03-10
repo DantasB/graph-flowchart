@@ -1,2 +1,3 @@
 /virtual_env
 /.vscode
+.env
