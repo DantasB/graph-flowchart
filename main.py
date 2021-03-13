@@ -1,5 +1,5 @@
-from utils.dotenv_utils import initialize_parameters
-from utils.arango_utils import create_vertexes, create_edges, create_graph, create_database
+from src.utils.dotenv_utils import initialize_parameters
+from src.utils.arango_utils import create_vertexes, create_edges, create_graph, create_database
 
 parameters = initialize_parameters()
 
