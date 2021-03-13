@@ -1,2 +1,3 @@
 pyArango==1.3.4
 python-dotenv==0.15.0
+pytest==6.2.2
