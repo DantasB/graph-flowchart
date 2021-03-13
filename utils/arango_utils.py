@@ -3,19 +3,25 @@ from classes.graph import Flowchart
 from pyArango.connection import *
 
 def login_to_database(username, password):
+    print("[Debug] Logging in on Database")
     return Connection(username=username, password=password)
 
 def create_database(username, password, database_name):
     connection = login_to_database(username, password)
     if not connection.hasDatabase(database_name):
+        print(f"[Debug] Trying to create the Database {database_name}")
         connection.createDatabase(name=database_name)
-    
+    else:
+        print(f"[Warn] Database {database_name} already exists")
+
     return connection[database_name]
 
 def safe_create_collection(db, collection_name, class_name):
     if not db.hasCollection(collection_name):
+        print(f"[Debug] Trying to create the Collection {collection_name} of type {class_name}")
         db.createCollection(className=class_name, name=collection_name)
-
+    else:
+        print(f"[Warn] Collection {collection_name} already exists")
     return db[collection_name]
 
 def create_vertexes(db, collection_name, vertex_path):
@@ -36,9 +42,10 @@ def create_vertexes(db, collection_name, vertex_path):
             document._key        = row[3].strip()
 
             try:
+                print(f"[Debug] Trying to save the document of name {document["name"]} on the collection")
                 document.save()
             except:
-                print(f"[Warning] Key {row[3].strip()} already in the collection")
+                print(f"[Warning] Key {document["name"]} is already in the collection")
 
 def create_edges(db, edge_name, edges_path):
     collection = safe_create_collection(db, edge_name, "Edges")
@@ -55,10 +62,14 @@ def create_edges(db, edge_name, edges_path):
             document._key     = row[0].strip().split('/')[1] + "TO" + row[1].strip().split('/')[1]
             document["label"] = row[2].strip()
             try:
+                print(f"[Debug] Trying to create the edge between {row[0].strip().split('/')[1]} and {row[1].strip().split('/')[1]} on the collection")
                 document.save()
             except:
-                print(f"[Warning] Couldn't save {row[0].strip().split('/')[1]} to {row[1].strip().split('/')[1]} edge. Already in the collection")
+                print(f"[Warning] Couldn't save {row[0].strip().split('/')[1]} - {row[1].strip().split('/')[1]} edge. Already in the collection")
 
 def create_graph(db, graph_name):
     if not db.hasGraph(graph_name):
+        print(f"[Debug] Trying to create the Graph {graph_name}")
         theGraph = db.createGraph(graph_name)
+    else:
+        print(f"[Warn] Graph {graph_name} already exists")

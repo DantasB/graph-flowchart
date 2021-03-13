@@ -1,6 +1,6 @@
 # Graph-Flowchart
 
-![demonstration]("img_src/flowchart.png")
+![demonstration](img_src/ecigraphexample.png)
 
 ## Tabela de conteúdos
 
@@ -72,7 +72,7 @@ $ python main.py
 
 # The graph constructor will start and them you can see this in the arangodb page
 ```
-![demonstration](https://media.giphy.com/media/bOInJcMLu8xyaZhQF3/giphy.gif)
+![demonstration](img_src/flowchart.png)
 
 
 ## Technologies
