@@ -1,5 +1,5 @@
 from csv import reader
-from classes.graph import Flowchart
+from src.classes.graph import Flowchart
 from pyArango.connection import *
 
 def login_to_database(username, password):
@@ -42,10 +42,10 @@ def create_vertexes(db, collection_name, vertex_path):
             document._key        = row[3].strip()
 
             try:
-                print(f"[Debug] Trying to save the document of name {document["name"]} on the collection")
+                print(f"[Debug] Trying to save the document of name {row[1]} on the collection")
                 document.save()
             except:
-                print(f"[Warning] Key {document["name"]} is already in the collection")
+                print(f"[Warning] Key {row[1]} is already in the collection")
 
 def create_edges(db, edge_name, edges_path):
     collection = safe_create_collection(db, edge_name, "Edges")
