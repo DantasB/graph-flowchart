@@ -1,4 +1,113 @@
-"name", "credits", "code","semester"
-"Biologia Molecular",1,"BMH126",1
-"Calculo 1",6,"MAB118",1
-"Lógica Matemática",4,"MAB336",5
+course, name, credits, code,semester
+ECI, Algoritmos e Programação, 5, COS110, 1
+ECI, Int. a Eng. Comp. e Informação, 2, COS111, 1
+ECI, Circuitos Lógicos, 5, EEL280, 1
+ECI, Cálculo I, 6, MAC118, 1
+ECI, Física I, 4, FIT112, 1
+ECI, Física Experimental I, 1, FIS111, 1
+ECI, Linguagens de Programação, 5, EEL670, 2
+ECI, Álgebra Linear II, 4, MAE125, 2
+ECI, Sistemas Digitais, 5, EEL480, 2
+ECI, Cálculo II, 4, MAC128, 2
+ECI, Física II, 4, FIT122, 2
+ECI, Física Experimental II, 1, FIS121, 2
+ECI, Estruturas de Dados, 5, COS231, 3
+ECI, Teoria da Computação, 4, EEL881, 3
+ECI, Arquitetura de Computadores, 5, EEL580, 3
+ECI, Cálculo III, 4, MAC238, 3
+ECI, Física III, 4, FIM230, 3
+ECI, Física Experimental III, 1, FIN231, 3
+ECI, Teoria dos Grafos, 4, COS242, 4
+ECI, Estatística e Mod. Probabilísticos, 4, COE241, 4
+ECI, Computadores e Sociedade, 4, COS471, 4
+ECI, Química EE, 4, IQG111, 4
+ECI, Cálculo IV, 4, MAC248, 4
+ECI, Física IV, 4, FIM240, 4
+ECI, Física Experimental IV, 1, FIN241, 4
+ECI, Banco de Dados, 4, EEL871, 5
+ECI, Lógica Matemática, 4, COS351, 5
+ECI, Álg. Linear Computacional, 5, COC473, 5
+ECI, Redes de Computadores I, 4, EEL878, 5
+ECI, Sistemas Operacionais, 5, EEL770, 5
+ECI, Química Experimental, 2, IQG112, 5
+ECI, Otimização, 4, COS360, 6
+ECI, Inteligência Computacional, 4, COC361, 6
+ECI, Engenharia de Software, 4, EEL873, 6
+ECI, Redes de Computadores II, 4, EEL879, 6
+ECI, Telecomunic., 4, COE363, 6
+ECI, Programação Avançada, 4, EEL418, 7
+ECI, Computação de Alto Desempenho, 3, COC472, 7
+ECI, Sistemas Distribuídos, 4, COS470, 7
+ECI, Gestão do Conhecimento, 4, COP232, 7
+ECI, Computação Gráfica, 4, EEL882, 7
+ECI, Construção de Banco de Dados, 4, COS480, 8
+ECI, Empreend. I, 4, COP364, 8
+ECI, Qualidade de Software, 4, COS482, 8
+ECI, Projeto de Graduação, 4, EEWX00, 8
+ECI, Estágio Obrigatório, 160, EEWU00, 9
+Farmácia, Biologia Molecular, 1, BMH126, 1
+Farmácia, Embriologia, 1, BMH127, 1
+Farmácia, Bioquímica I, 3, BQM101, 1
+Farmácia, ICF, 2, FFC111, 1
+Farmácia, Metodologia Científica, 2, FFP111, 1
+Farmácia, Biofísica, 3, FFW112, 1
+Farmácia, Química Geral I, 4, IQG114, 1
+Farmácia, Cálculo p/ Farmácia, 3, MAC108, 1
+Farmácia, PCI I , 8, BMW203, 2
+Farmácia, Bioquímica II, 4, BQM103, 2
+Farmácia, Química Geral II, 3, IQG127, 2
+Farmácia, Química Orgânica I, 4, IQO120, 2
+Farmácia, Bioestatística, 3, MAD237, 2
+Farmácia, PCI II, 11, BMW204, 3
+Farmácia, Química Analítica I, 2, IQA123, 3
+Farmácia, Química Analítica Exp. I, 2, IQA124, 3
+Farmácia, Físico-Química , 4, IQF235, 3
+Farmácia, Química Orgânica II, 3, IQO230, 3
+Farmácia, Química Orgânica Exp. I, 2, IQO242, 3
+Farmácia, Farmacobotânica, 3, FFP600, 4
+Farmácia, Iniciacao Científica, 2, FFWX02, 4
+Farmácia, Química Analítica II, 2,IQA233, 4
+Farmácia, Química Analítica Exp. II, 2, IQA234, 4
+Farmácia, Bioinorgânica, 4, IQG234, 4
+Farmácia, Métodos Espectrométricos, 3, IQO220, 4
+Farmácia, Química Orgânica III, 3, IQO240, 4
+Farmácia, Farmacoc e Farmacodin, 2, BMF310, 5
+Farmácia, Saúde Coletiva, 2, FFC303, 5
+Farmácia, Análises Farmacêuticas, 5, FFM302, 5
+Farmácia, Política de Saúde, 2, FFM311, 5
+Farmácia, Microbiologia e Imunologia, 8, IMW360, 5
+Farmácia, Química Orgânica Exp. II, 2, IQO251, 5
+Farmácia, Farmacologia Neuroendócrina, 4, BFM320, 6
+Farmácia, Parasitologia, 3, CFP215, 6
+Farmácia, Micro Imuno Clínica, 3, FFC480, 6
+Farmácia, Metabolismo Integrado, 4, FFI311, 6
+Farmácia, Farmacotécnica I, 4, FFM313, 6
+Farmácia, Farmacognosia I, 3, FFP313, 6
+Farmácia, Química de Alimentos, 3, FFP324, 6
+Farmácia, Farmacologia Cardio/Quimio, 4, BMF410, 7
+Farmácia, Bioquímica Clínica, 3, FFC304, 7
+Farmácia, Diagnóstico Clínico Laboratorial, 2, FFC321, 7
+Farmácia, Hematologia, 2, FFC322, semester:7
+Farmácia, Farmacotécnica II, 4, FFM323, 7
+Farmácia, Assist. e Atenção Farm., 2, FFM481, 7
+Farmácia, Estágio Sup. Farm. Comun., 2, FFMU00, 7
+Farmácia, Farmacognosia II, 3, FFP323, 7
+Farmácia, Análises de Alimentos, 3, FFP403, 7
+Farmácia, Parasitologia e Micologia Clínica, 3, FFC406, 8
+Farmácia, Química Farm. Med., 5, FFI401, 8
+Farmácia, Farmácia Hospitalar, 2, FFM300, 8
+Farmácia, Deonto. e Legisl. Farmacêutica, 2, FFM301, 8
+Farmácia, Farmaco-epidemiologia, 2, FFM402, 8
+Farmácia, Farmacotécnica Hospitalar, 2, FFM403, 8
+Farmácia, Tecnologia Ind. Farm., 4, FFM408, 8
+Farmácia, Est. Sup. Far. Manip. Alo, 2, FFMU07, 8
+Farmácia, Bromatologia em Saúde, 3, FFP402, 8
+Farmácia, Toxicologia Geral, 3, FFC314, 9
+Farmácia, Con. Bio. Mic. Qua. Pro. Far., 4, FFI402, 9
+Farmácia, Biofarmácia, 2, FFM405, 9
+Farmácia, Dermocosméticos, 2, FFM406, 9
+Farmácia, Biotecnologia Farmacêutica, 3, FFM426, 9
+Farmácia, Estágio Sup. Farmácia Hosp., 2, FFMU08, 9
+Farmácia, TCC, 0, FFWK02, 9
+Farmácia, Eco e Adm Emp. Far., 3, IEEE326, 9
+Farmácia, Estágio Sup Especialidades, 8, FFWU06, 10
