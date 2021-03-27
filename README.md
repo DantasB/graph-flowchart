@@ -15,7 +15,7 @@
 
 ## About
 
-This repository is a study abound Graph Databases and Datavisualization, where i was trying to figure out another way to represent a flowchart, where all the students could see easily the requirements of each course in a specific program.
+This repository is a study about Graph Databases and Datavisualization, where i was trying to figure out another way to represent a flowchart, where all the students could see easily the requirements of each course in a specific program.
 
 ## Requirements
 
