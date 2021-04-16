@@ -2,7 +2,7 @@
 
 ![demonstration](img_src/ecigraphexample.png)
 
-## Tabela de conteúdos
+## Table of Contents
 
 <!--ts-->
    * [About](#about)
